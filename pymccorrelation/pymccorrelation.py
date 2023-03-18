@@ -148,7 +148,7 @@ def kendall_IFN86(x, y,
                 if (ylim[i] == 0 or ylim[i] == -1) and (ylim[j] == 0 or ylim[j] == 1):
                     b[i, j] = -1
             else:
-                if (ylim[i] == 0 or ylim[i] == 0) and (ylim[j] == 0 or ylim[j] == -1):
+                if (ylim[i] == 0 or ylim[i] == 1) and (ylim[j] == 0 or ylim[j] == -1):
                     b[i, j] = 1
 
 
